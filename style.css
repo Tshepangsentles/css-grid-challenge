@@ -1,0 +1,40 @@
+
+.jeanette {
+  background-color: white;
+  color: #4a5468;
+}
+
+.patrick {
+  background-color: #19202d;
+  color: white;
+}
+
+.kira {
+  background-color: white;
+  color: #4a5468;
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* 7. Text */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+article > p {
+  font-size: 14px;
+  line-height: 1.6;
+}
